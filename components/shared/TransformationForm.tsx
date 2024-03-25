@@ -35,7 +35,7 @@ import { startTransition, useState, useTransition, useEffect } from "react";
 import { updateCredits } from "@/lib/actions/user.actions";
 import MediaUploader from "@/components/shared/MediaUploader";
 import TransformedImage from "@/components/shared/TransformedImage";
-import { addImage, updateImage } from "@/lib/actions/image.action";
+import { addImage, updateImage } from "@/lib/actions/image.actions";
 import { getCldImageUrl } from "next-cloudinary";
 import { InsufficientCreditsModal } from "@/components/shared/InsufficientCredits";
 
